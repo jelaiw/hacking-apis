@@ -1,5 +1,7 @@
 {
-  "image": "kalilinux/kali-rolling:latest",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
   }
 }
