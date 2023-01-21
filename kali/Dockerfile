@@ -9,4 +9,4 @@ RUN apt install -y git python3 golang
 RUN apt install -y nmap netdiscover
 
 # Install supplemental tools from Chapter 4.
-RUN apt install -y nikto amass wfuzz
+RUN apt install -y nikto amass wfuzz zaproxy
