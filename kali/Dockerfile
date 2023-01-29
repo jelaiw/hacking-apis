@@ -18,3 +18,6 @@ RUN apt install -y make && \
     cd kiterunner && \
     make build && \
     ln -s $(pwd)/dist/kr /usr/local/bin/kr
+
+# Install wordlists and a few web fuzzers.
+RUN apt install -y wordlists dirb dirbuster gobuster
