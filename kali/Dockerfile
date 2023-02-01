@@ -21,3 +21,11 @@ RUN apt install -y make && \
 
 # Install wordlists and a few web fuzzers.
 RUN apt install -y wordlists dirb dirbuster gobuster
+
+# Need pip package to install Arjun. 
+# See https://github.com/s0md3v/Arjun#installing-arjun.
+RUN apt install -y python3-pip && \
+    cd /opt && \
+    git clone https://github.com/s0md3v/Arjun.git && \
+    cd Arjun/ && \
+    python3 setup.py install
