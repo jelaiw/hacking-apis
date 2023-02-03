@@ -1,0 +1,271 @@
+- Nikto v2.1.6/2.1.5
++ Target Host: 172.17.0.2
++ Target Port: 3000
++ GET Retrieved access-control-allow-origin header: *
++ GET The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ GET Uncommon header 'feature-policy' found, with contents: payment 'self'
++ GET Uncommon header 'x-recruiting' found, with contents: /#/jobs
++ GET Entry '/ftp/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ GET "robots.txt" contains 1 entry which should be manually viewed.
++ HEAD /172.cer: Potentially interesting archive/cert file found.
++ HEAD /172.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.jks: Potentially interesting archive/cert file found.
++ HEAD /17217.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.cer: Potentially interesting archive/cert file found.
++ HEAD /172.17.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.tar: Potentially interesting archive/cert file found.
++ HEAD /backup.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.cer: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.war: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.tar: Potentially interesting archive/cert file found.
++ HEAD /172.17.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.jks: Potentially interesting archive/cert file found.
++ HEAD /2.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.jks: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.cer: Potentially interesting archive/cert file found.
++ HEAD /backup.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.tar: Potentially interesting archive/cert file found.
++ HEAD /2.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.tar: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.tar: Potentially interesting archive/cert file found.
++ HEAD /1721702.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.pem: Potentially interesting archive/cert file found.
++ HEAD /172.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.tgz: Potentially interesting archive/cert file found.
++ HEAD /backup.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.alz: Potentially interesting archive/cert file found.
++ HEAD /172.17.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /site.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.alz: Potentially interesting archive/cert file found.
++ HEAD /0.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /backup.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.alz: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.alz: Potentially interesting archive/cert file found.
++ HEAD /1721702.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.egg: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.alz: Potentially interesting archive/cert file found.
++ HEAD /17.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /2.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.cer: Potentially interesting archive/cert file found.
++ HEAD /17217.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.cer: Potentially interesting archive/cert file found.
++ HEAD /0.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /17217.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /172.17.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.egg: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.alz: Potentially interesting archive/cert file found.
++ HEAD /backup.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.tgz: Potentially interesting archive/cert file found.
++ HEAD /172.17.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.tgz: Potentially interesting archive/cert file found.
++ HEAD /0.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /17217.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.jks: Potentially interesting archive/cert file found.
++ HEAD /0.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.tar: Potentially interesting archive/cert file found.
++ HEAD /17217.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.tar: Potentially interesting archive/cert file found.
++ HEAD /0.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.war: Potentially interesting archive/cert file found.
++ HEAD /17217.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.pem: Potentially interesting archive/cert file found.
++ HEAD /backup.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.pem: Potentially interesting archive/cert file found.
++ HEAD /17217.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /site.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.pem: Potentially interesting archive/cert file found.
++ HEAD /172.17.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.jks: Potentially interesting archive/cert file found.
++ HEAD /17.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /172170.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.egg: Potentially interesting archive/cert file found.
++ HEAD /site.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.pem: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.jks: Potentially interesting archive/cert file found.
++ HEAD /172170.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.tar: Potentially interesting archive/cert file found.
++ HEAD /17.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.jks: Potentially interesting archive/cert file found.
++ HEAD /172.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /172.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.tgz: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.cer: Potentially interesting archive/cert file found.
++ HEAD /2.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.tgz: Potentially interesting archive/cert file found.
++ HEAD /2.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /1721702.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.egg: Potentially interesting archive/cert file found.
++ HEAD /17.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.war: Potentially interesting archive/cert file found.
++ HEAD /172.17.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.war: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.pem: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.alz: Potentially interesting archive/cert file found.
++ HEAD /172.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /17.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.alz: Potentially interesting archive/cert file found.
++ HEAD /2.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.war: Potentially interesting archive/cert file found.
++ HEAD /backup.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.alz: Potentially interesting archive/cert file found.
++ HEAD /site.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /0.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.tgz: Potentially interesting archive/cert file found.
++ HEAD /1721702.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.alz: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.egg: Potentially interesting archive/cert file found.
++ HEAD /172170.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /17.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.cer: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.cer: Potentially interesting archive/cert file found.
++ HEAD /site.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.alz: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.cer: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.war: Potentially interesting archive/cert file found.
++ HEAD /172.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.pem: Potentially interesting archive/cert file found.
++ HEAD /0.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.tar: Potentially interesting archive/cert file found.
++ HEAD /172170.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.cer: Potentially interesting archive/cert file found.
++ HEAD /17.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /1721702.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.war: Potentially interesting archive/cert file found.
++ HEAD /2.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.cer: Potentially interesting archive/cert file found.
++ HEAD /172170.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.cer: Potentially interesting archive/cert file found.
++ HEAD /1721702.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.jks: Potentially interesting archive/cert file found.
++ HEAD /site.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.tgz: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.egg: Potentially interesting archive/cert file found.
++ HEAD /17217.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.tgz: Potentially interesting archive/cert file found.
++ HEAD /17.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.tgz: Potentially interesting archive/cert file found.
++ HEAD /172170.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /0.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /172170.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.egg: Potentially interesting archive/cert file found.
++ HEAD /0.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.tgz: Potentially interesting archive/cert file found.
++ HEAD /172.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.pem: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.pem: Potentially interesting archive/cert file found.
++ HEAD /site.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.tar: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.tar: Potentially interesting archive/cert file found.
++ HEAD /172.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.alz: Potentially interesting archive/cert file found.
++ HEAD /172170.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.egg: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.pem: Potentially interesting archive/cert file found.
++ HEAD /17.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.tgz: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /0.war: Potentially interesting archive/cert file found.
++ HEAD /0.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.jks: Potentially interesting archive/cert file found.
++ HEAD /172.17.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.tgz: Potentially interesting archive/cert file found.
++ HEAD /site.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.pem: Potentially interesting archive/cert file found.
++ HEAD /172170.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /172.17.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.pem: Potentially interesting archive/cert file found.
++ HEAD /2.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.tgz: Potentially interesting archive/cert file found.
++ HEAD /17217.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /backup.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /172.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.jks: Potentially interesting archive/cert file found.
++ HEAD /backup.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.tar: Potentially interesting archive/cert file found.
++ HEAD /site.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.war: Potentially interesting archive/cert file found.
++ HEAD /site.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.egg: Potentially interesting archive/cert file found.
++ HEAD /172.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.egg: Potentially interesting archive/cert file found.
++ HEAD /172.17.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.2.tar: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.2.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17217.alz: Potentially interesting archive/cert file found.
++ HEAD /17217.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.war: Potentially interesting archive/cert file found.
++ HEAD /1721702.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.jks: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.egg: Potentially interesting archive/cert file found.
++ HEAD /1721702.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /17.war: Potentially interesting archive/cert file found.
++ HEAD /17.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172170.war: Potentially interesting archive/cert file found.
++ HEAD /172170.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172.17.0.jks: Potentially interesting archive/cert file found.
++ HEAD /172.17.0.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /2.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.war: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.pem: Potentially interesting archive/cert file found.
++ HEAD /1721702.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /2.egg: Potentially interesting archive/cert file found.
++ HEAD /2.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.egg: Potentially interesting archive/cert file found.
++ HEAD /backup.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /1721702.jks: Potentially interesting archive/cert file found.
++ HEAD /1721702.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /172_17_0_2.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /172_17_0_2.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ OSVDB-3092: GET /ftp/: This might be interesting...
++ OSVDB-3092: GET /public/: This might be interesting...
