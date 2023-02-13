@@ -29,3 +29,11 @@ RUN apt install -y python3-pip && \
     git clone https://github.com/s0md3v/Arjun.git && \
     cd Arjun/ && \
     python3 setup.py install
+
+# Install JSON Web Token Toolkit.
+# See https://github.com/ticarpi/jwt_tool.
+RUN cd /opt && \
+    git clone https://github.com/ticarpi/jwt_tool && \
+    cp jwt_tool/jwt_tool.py /usr/local/bin && \
+    chmod 755 /usr/local/bin/jwt_tool.py && \
+    pip install pycryptodomex termcolor
