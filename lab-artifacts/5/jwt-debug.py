@@ -4,6 +4,7 @@ import json
 from datetime import datetime
 
 # Credit to https://stackoverflow.com/a/3682808.
+# See https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes.
 def format_timestamp(ts:int):
     return datetime.utcfromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
 
