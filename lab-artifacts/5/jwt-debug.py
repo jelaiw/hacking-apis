@@ -25,6 +25,10 @@ print(json.dumps(header, indent=4))
 payload = json.loads(base64.urlsafe_b64decode(tokens[1] + '==')) # Kludge for incorrect padding.
 print(json.dumps(payload, indent=4))
 
+if 'iat' in payload:
+    iat = format_timestamp(int(payload['iat']))
+    print(f"Issued at {iat}.")
+
 if 'exp' in payload:
     exp = format_timestamp(int(payload['exp']))
     print(f"Expires at {exp}.")
