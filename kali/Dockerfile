@@ -32,8 +32,14 @@ RUN apt install -y python3-pip && \
 
 # Install JSON Web Token Toolkit.
 # See https://github.com/ticarpi/jwt_tool.
-RUN cd /opt && \
+# See https://stackoverflow.com/a/25423366 regarding source shell builtin.
+SHELL ["/bin/bash", "-c"]
+RUN apt install -y python3-venv && \
+    cd /opt && \
     git clone https://github.com/ticarpi/jwt_tool && \
     cp jwt_tool/jwt_tool.py /usr/local/bin && \
     chmod 755 /usr/local/bin/jwt_tool.py && \
-    pip install pycryptodomex termcolor
+    python3 -m venv /opt/jwt_tool-venv && \
+    source /opt/jwt_tool-venv/bin/activate && \
+    pip install requests pycryptodomex termcolor
+
