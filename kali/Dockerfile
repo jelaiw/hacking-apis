@@ -48,3 +48,5 @@ RUN apt install -y python3-venv && \
 # See https://stackoverflow.com/a/30717108 for kludge details.
 RUN source /opt/jwt_tool-venv/bin/activate && \
     jwt_tool.py; exit 0
+
+WORKDIR /tmp
