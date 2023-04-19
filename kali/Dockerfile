@@ -42,7 +42,7 @@ RUN apt install -y python3-venv && \
     chmod 755 /usr/local/bin/jwt_tool.py && \
     python3 -m venv /opt/jwt_tool-venv && \
     source /opt/jwt_tool-venv/bin/activate && \
-    pip install requests pycryptodomex termcolor
+    pip install -r /opt/jwt_tool/requirements.txt
 
 # Go ahead and run JWT_Tool once to perform initial configuration.
 # See https://stackoverflow.com/a/30717108 for kludge details.
