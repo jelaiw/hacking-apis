@@ -36,7 +36,7 @@ resource "google_compute_instance" "kali" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-11"
+      image = "kali-linux-2023-1-cloud-genericcloud-amd64"
     }
   }
 
