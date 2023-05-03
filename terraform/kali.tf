@@ -3,7 +3,7 @@ resource "google_compute_instance" "kali" {
   name         = "kali"
   machine_type = "f1-micro"
   metadata = {
-    "serial-port-enable" = "true"
+    "serial-port-enable" = "false"
     "ssh-keys"           = var.ssh-keys
   }
 
