@@ -8,3 +8,6 @@ variable "region" {
 variable "zone" {
   default = "us-central1-c"
 }
+
+variable "ssh-keys" {
+}
