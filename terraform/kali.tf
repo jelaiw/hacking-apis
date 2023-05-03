@@ -2,6 +2,9 @@
 resource "google_compute_instance" "kali" {
   name         = "kali"
   machine_type = "f1-micro"
+  metadata = {
+    "serial-port-enable" = "true"
+  }
 
   boot_disk {
     initialize_params {
