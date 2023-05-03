@@ -4,6 +4,7 @@ resource "google_compute_instance" "kali" {
   machine_type = "f1-micro"
   metadata = {
     "serial-port-enable" = "true"
+    "ssh-keys"           = var.ssh-keys
   }
 
   boot_disk {
