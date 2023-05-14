@@ -1,4 +1,5 @@
-- hosts: kali
+- name: kali-linux-headless metapackage
+  hosts: kali
   remote_user: kali
   tasks:
   - name: apt update
