@@ -5,3 +5,7 @@
     ansible.builtin.apt:
       update-cache: yes
     become: yes
+  - name: apt full-upgrade
+    ansible.builtin.apt:
+      upgrade: full
+    become: yes
