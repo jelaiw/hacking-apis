@@ -1,0 +1,7 @@
+- hosts: kali
+  remote_user: kali
+  tasks:
+  - name: apt update
+    ansible.builtin.apt:
+      update-cache: yes
+    become: yes
