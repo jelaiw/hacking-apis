@@ -11,17 +11,18 @@ resource "google_compute_firewall" "hapinet-allow-ssh" {
   source_ranges = ["0.0.0.0/0"]
 }
 
-resource "google_compute_firewall" "hapinet-allow-rdp" {
-  name    = "hapinet-allow-rdp"
-  network = google_compute_network.hapinet.name
+#resource "google_compute_firewall" "hapinet-allow-rdp" {
+#name    = "hapinet-allow-rdp"
+#network = google_compute_network.hapinet.name
 
-  allow {
-    protocol = "tcp"
-    ports    = ["3389"]
-  }
+#allow {
+#protocol = "tcp"
+#ports    = ["3389"]
+#}
 
-  source_ranges = ["0.0.0.0/0"]
-}
+#source_ranges = ["0.0.0.0/0"]
+#}
+
 resource "google_compute_firewall" "hapinet-allow-icmp" {
   name    = "hapinet-allow-icmp"
   network = google_compute_network.hapinet.name
