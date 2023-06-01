@@ -1,4 +1,4 @@
-- name: kali-linux-headless metapackage
+- name: Customize Kali Linux
   hosts: kali
   remote_user: kali
   tasks:
@@ -9,4 +9,9 @@
   - name: apt full-upgrade
     ansible.builtin.apt:
       upgrade: full
+    become: yes
+  - name: Install kali-linux-headless metapackage
+    ansible.builtin.apt:
+      name: kali-linux-headless
+      state: present
     become: yes
