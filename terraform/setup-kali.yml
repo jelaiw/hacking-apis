@@ -15,3 +15,11 @@
       name: kali-linux-headless
       state: present
     become: yes
+  - name: Install xfce and rdp
+    ansible.builtin.apt:
+      name:
+        - kali-desktop-xfce
+        - xorg
+        - xrdp
+      state: present
+    become: yes
