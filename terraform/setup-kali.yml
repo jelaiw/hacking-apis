@@ -29,3 +29,8 @@
       state: started
       enabled: true
     become: yes
+  - name: Set up kali user
+    ansible.builtin.user:
+      name: kali
+      password: $6$XfE4ENWj54dMpO6l$3SSNhXD9n61xXFvrtod0iSqCnFeAV.2xL7Tnaa6v7.D3PMAjTQ6aklc6heTrdl3q4S2FaNFcmOlVFNMMU6OyO1
+    become: yes
