@@ -1,1 +1,2 @@
 kali ansible_user=kali ansible_host=35.223.107.21
+vulnweb ansible_user=vulnweb ansible_host=34.27.208.226
