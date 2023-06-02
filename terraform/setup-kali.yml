@@ -1,4 +1,4 @@
-- name: Customize Kali Linux
+- name: kali
   hosts: kali
   remote_user: kali
   tasks:

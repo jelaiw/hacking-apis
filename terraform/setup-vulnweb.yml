@@ -1,4 +1,4 @@
-- name: Vulnerable Web Server
+- name: vulnweb
   hosts: vulnweb
   remote_user: vulnweb
   tasks:
