@@ -9,5 +9,8 @@ variable "zone" {
   default = "us-central1-c"
 }
 
-variable "ssh-keys" {
+variable "kali-ssh-keys" {
+}
+
+variable "vulnweb-ssh-keys" {
 }
