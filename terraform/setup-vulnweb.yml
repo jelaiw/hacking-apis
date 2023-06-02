@@ -1,0 +1,8 @@
+- name: Vulnerable Web Server
+  hosts: vulnweb
+  remote_user: vulnweb
+  tasks:
+  - name: apt update
+    ansible.builtin.apt:
+      update-cache: yes
+    become: yes
