@@ -4,7 +4,7 @@ resource "google_compute_instance" "kali" {
   machine_type = "e2-standard-2"
   metadata = {
     "serial-port-enable" = "false"
-    "ssh-keys"           = var.ssh-keys
+    "ssh-keys"           = var.kali-ssh-keys
   }
 
   boot_disk {
