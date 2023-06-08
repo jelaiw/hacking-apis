@@ -14,3 +14,9 @@
         - docker-doc
       state: present
     become: yes
+  - name: Add user to docker Unix group
+    ansible.builtin.user:
+      name: vulnweb
+      groups: docker
+      append: yes
+    become: yes
