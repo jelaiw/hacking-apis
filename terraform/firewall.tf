@@ -5,7 +5,7 @@ resource "google_compute_firewall" "hapinet-allow-ssh" {
 
   allow {
     protocol = "tcp"
-    ports    = ["22"]
+    ports    = ["22", "443"]
   }
 
   source_ranges = ["0.0.0.0/0"]
