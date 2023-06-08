@@ -6,3 +6,11 @@
     ansible.builtin.apt:
       update-cache: yes
     become: yes
+  - name: Install Docker
+    ansible.builtin.apt:
+      name:
+        - docker.io
+        - docker-compose
+        - docker-doc
+      state: present
+    become: yes
