@@ -8,7 +8,7 @@ resource "google_compute_firewall" "hapinet-allow-ssh" {
     ports    = ["22", "443"]
   }
 
-  source_ranges = ["107.136.159.0/24"]
+  source_ranges = ["107.136.159.0/24", "20.161.0.0/16"]
 }
 
 #resource "google_compute_firewall" "hapinet-allow-rdp" {
