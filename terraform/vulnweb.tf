@@ -1,7 +1,7 @@
 # See https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance.
 resource "google_compute_instance" "vulnweb" {
   name         = "vulnweb"
-  machine_type = "e2-standard-2"
+  machine_type = "e2-custom-medium-2816"
   metadata = {
     "serial-port-enable" = "false"
     "ssh-keys"           = var.vulnweb-ssh-keys
