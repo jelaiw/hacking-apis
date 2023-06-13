@@ -1,0 +1,23 @@
+- name: ssh
+  hosts: ssh
+  tasks:
+  - name: Listen on port 443 for sshd
+    ansible.builtin.lineinfile:
+      path: /etc/ssh/sshd_config
+      line: Port 443
+    become: yes
+  - name: Uncomment port 22 for sshd_config
+    ansible.builtin.lineinfile:
+      path: /etc/ssh/sshd_config
+      regex: "^#Port 22"
+      line: Port 22
+    notify:
+    - Restart sshd
+    become: yes
+
+  handlers:
+    - name: Restart sshd
+      ansible.builtin.service:
+        name: sshd
+        state: restarted
+      become: yes
