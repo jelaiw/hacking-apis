@@ -28,3 +28,10 @@
       user: kali
       state: present
       key: "{{ lookup('file', 'ssh.keys') }}"
+
+- hosts: vulnweb
+  tasks:
+  - ansible.posix.authorized_key:
+      user: vulnweb
+      state: present
+      key: "{{ lookup('file', 'ssh.keys') }}"
