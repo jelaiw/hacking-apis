@@ -8,3 +8,4 @@
 1. Kalifigurator. https://github.com/iesplin/ansible-playbook-kali.
 1. ansible.builtin.lineinfile module. https://docs.ansible.com/ansible/latest/collections/ansible/builtin/lineinfile_module.html.
 1. Ansible handlers. https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_handlers.html.
+1. ansible.posix.authorized_key module. https://docs.ansible.com/ansible/latest/collections/ansible/posix/authorized_key_module.html.
