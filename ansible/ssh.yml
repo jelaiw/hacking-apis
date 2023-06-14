@@ -21,3 +21,10 @@
         name: sshd
         state: restarted
       become: yes
+
+- hosts: kali
+  tasks:
+  - ansible.posix.authorized_key:
+      user: kali
+      state: present
+      key: "{{ lookup('file', 'ssh.keys') }}"
