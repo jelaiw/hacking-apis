@@ -8,7 +8,7 @@ resource "google_compute_firewall" "hapinet-allow-ssh" {
     ports    = ["22", "443"]
   }
 
-  source_ranges = ["107.136.159.0/24", "20.161.0.0/16"]
+  source_ranges = ["107.136.159.0/24", "172.177.0.0/16"]
 }
 
 #resource "google_compute_firewall" "hapinet-allow-rdp" {
@@ -32,4 +32,25 @@ resource "google_compute_firewall" "hapinet-allow-icmp" {
   }
 
   source_ranges = ["0.0.0.0/0"]
+}
+
+resource "google_compute_firewall" "hapinet-allow-internal" {
+  name    = "hapinet-allow-internal"
+  network = google_compute_network.hapinet.name
+
+  allow {
+    protocol = "icmp"
+  }
+
+  allow {
+    protocol = "tcp"
+    ports    = ["0-65535"]
+  }
+
+  allow {
+    protocol = "udp"
+    ports    = ["0-65535"]
+  }
+
+  source_ranges = ["10.128.0.0/9"]
 }
