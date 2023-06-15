@@ -1,0 +1,14 @@
+- name: OWASP Juice Shop
+  hosts: vulnweb
+  remote_user: vulnweb
+  tasks:
+  - name: Pull image
+    community.docker.docker_image:
+      name: bkimminich/juice-shop
+      source: pull
+  - name: Start container
+    community.docker.docker_container:
+      name: juice-shop
+      image: bkimminich/juice-shop
+      ports:
+        - 80:3000
