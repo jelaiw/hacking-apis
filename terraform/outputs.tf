@@ -5,3 +5,7 @@ output "kali_ip" {
 output "vulnweb_ip" {
   value = google_compute_instance.vulnweb.network_interface[0].access_config[0].nat_ip
 }
+
+output "vulnweb_int_ip" {
+  value = google_compute_instance.vulnweb.network_interface[0].network_ip
+}
