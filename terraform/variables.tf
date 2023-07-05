@@ -14,3 +14,6 @@ variable "kali-ssh-keys" {
 
 variable "vulnweb-ssh-keys" {
 }
+
+variable "codespaces_ip" {
+}
