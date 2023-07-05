@@ -8,7 +8,7 @@ resource "google_compute_firewall" "hapinet-allow-ssh" {
     ports    = ["22", "443"]
   }
 
-  source_ranges = ["107.136.159.0/24", "20.230.0.0/17"]
+  source_ranges = [var.codespaces_ip, "107.136.159.0/24", "2.40.82.36", "192.40.82.36"]
 }
 
 resource "google_compute_firewall" "hapinet-allow-icmp" {
