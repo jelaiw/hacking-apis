@@ -34,3 +34,8 @@
       name: kali
       password: $6$XfE4ENWj54dMpO6l$3SSNhXD9n61xXFvrtod0iSqCnFeAV.2xL7Tnaa6v7.D3PMAjTQ6aklc6heTrdl3q4S2FaNFcmOlVFNMMU6OyO1
     become: yes
+  - name: Install Burp Suite
+    ansible.builtin.apt:
+      name: burpsuite
+      state: present
+    become: yes
