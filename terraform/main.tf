@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "student88"
+    workspaces {
+      name = "hapi-lab"
+    }
+  }
+
   required_providers {
     google = {
       source  = "hashicorp/google"
