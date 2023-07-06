@@ -16,5 +16,8 @@ variable "vulnweb-ssh-keys" {
 }
 
 variable "codespaces_ip" {
-  type = string
+  type = string  
+}
+
+variable "gcp_creds" {
 }
