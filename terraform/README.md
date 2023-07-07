@@ -6,3 +6,4 @@
 1. Kali cloud images. https://www.kali.org/get-kali/#kali-cloud.
 1. TF_VAR_env_var. https://developer.hashicorp.com/terraform/language/values/variables#environment-variables.
 1. Input variable type constraints. https://developer.hashicorp.com/terraform/language/values/variables#type-constraints.
+1. How-to set up Google Cloud GCP credentials in Terraform Cloud. https://support.hashicorp.com/hc/en-us/articles/4406586874387-How-to-set-up-Google-Cloud-GCP-credentials-in-Terraform-Cloud.
