@@ -1,7 +1,7 @@
 ## Overview
-Tinker with Docker dev container to see if it works well enough for a basic "hacking APIs" virtual lab.
+Tinker with infrastructure-as-code (Terraform config with Ansible playbooks) for a basic "hacking APIs" virtual lab.
 
-Also, compare with an infrastructure-as-code approach (i.e., Terraform configuration for a Google Cloud Platform provider with Ansible for software configuration management) for our use case.
+Initially tried Docker dev container, but did not work quite well enough for our use case, so pivot away for now.
 
 ## References
 1. "Hacking APIs: Breaking Web Application Programming Interfaces". Ball, CJ. No Starch Press, 2022.
