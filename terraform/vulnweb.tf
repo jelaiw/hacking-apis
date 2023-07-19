@@ -4,7 +4,7 @@ resource "google_compute_instance" "vulnweb" {
   machine_type = "e2-custom-medium-2816"
   metadata = {
     "serial-port-enable" = "false"
-    "ssh-keys"           = var.vulnweb-ssh-keys
+    "ssh-keys"           = format("%s:%s", "vulnweb", file("/home/vscode/.ssh/id_rsa.pub"))
   }
 
   boot_disk {

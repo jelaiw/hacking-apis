@@ -4,7 +4,7 @@ resource "google_compute_instance" "kali" {
   machine_type = "e2-custom-medium-8192"
   metadata = {
     "serial-port-enable" = "false"
-    "ssh-keys"           = var.kali-ssh-keys
+    "ssh-keys"           = format("%s:%s", "kali", file("/home/vscode/.ssh/id_rsa.pub"))
   }
 
   boot_disk {
