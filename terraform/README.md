@@ -10,3 +10,4 @@
 1. How-to set up Google Cloud GCP credentials in Terraform Cloud. https://support.hashicorp.com/hc/en-us/articles/4406586874387-How-to-set-up-Google-Cloud-GCP-credentials-in-Terraform-Cloud.
 1. Terraform file Function. https://developer.hashicorp.com/terraform/language/functions/file.
 1. Terraform format Function. https://developer.hashicorp.com/terraform/language/functions/format.
+1. TF format() example. Stack Overflow, https://stackoverflow.com/a/58224248.
