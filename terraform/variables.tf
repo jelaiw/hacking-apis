@@ -9,12 +9,6 @@ variable "zone" {
   default = "us-central1-c"
 }
 
-variable "kali-ssh-keys" {
-}
-
-variable "vulnweb-ssh-keys" {
-}
-
 variable "codespaces_ip" {
   type = string
 }
