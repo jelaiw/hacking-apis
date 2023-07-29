@@ -12,3 +12,4 @@
 1. community.docker.docker_image module. https://docs.ansible.com/ansible/latest/collections/community/docker/docker_image_module.html.
 1. community.docker.docker_container module. https://docs.ansible.com/ansible/latest/collections/community/docker/docker_container_module.html.
 1. Install Google Chrome in Debian-like systems. https://ansiblepilot.medium.com/install-google-chrome-in-debian-like-systems-ansible-module-apt-key-apt-repository-and-apt-abcd739cebd4.
+1. ansible.builtin.apt_key module. https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_key_module.html.
