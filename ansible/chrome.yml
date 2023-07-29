@@ -7,3 +7,9 @@
       url: https://dl.google.com/linux/linux_signing_key.pub
       state: present
     become: yes
+  - name: Add Google Chrome repo to sources list
+    ansible.builtin.apt_repository:
+      repo: deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+      state: present
+      filename: google-chrome
+    become: yes
