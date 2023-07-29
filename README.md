@@ -9,3 +9,4 @@ Initially tried plain old dev container and got far with Docker-in-Docker, but d
 1. Dev Container specification. https://containers.dev/.
 1. GitHub Codespaces documentation. https://docs.github.com/en/codespaces/overview.
 1. Terraform documentation. https://developer.hashicorp.com/terraform/docs.
+1. Ansible community documentation. https://docs.ansible.com/.
