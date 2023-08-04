@@ -1,0 +1,20 @@
+- name: postman
+  hosts: kali
+  remote_user: kali
+  tasks:
+  - name: Install snapd
+    ansible.builtin.apt:
+      name: snapd
+      state: latest
+    become: yes
+  - name: Enable and start snap service
+    ansible.builtin.systemd:
+      name: snapd
+      state: started
+      enabled: true
+    become: yes
+  - name: Install Postman
+    community.general.snap:
+      name: postman
+      state: present
+    become: yes
