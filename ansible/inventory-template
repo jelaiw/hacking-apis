@@ -1,0 +1,6 @@
+kali ansible_user=kali ansible_host=KALI_IP
+vulnweb ansible_user=vulnweb ansible_host=VULNWEB_IP
+
+[ssh]
+kali
+vulnweb
