@@ -10,7 +10,7 @@ resource "google_compute_instance" "kali" {
   boot_disk {
     initialize_params {
       #      image = "kali-linux-2023-1-cloud-genericcloud-amd64"
-      image = "kali-disk-image-2"
+      image = "kali-disk-image-2b"
       size  = 22
     }
   }
