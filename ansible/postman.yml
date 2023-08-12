@@ -14,6 +14,12 @@
       state: started
       enabled: true
     become: yes
+  - name: Enable and start snapd.apparmor
+    ansible.builtin.systemd:
+      name: snapd.apparmor
+      state: started
+      enabled: true
+    become: yes
   - name: Install Postman
     community.general.snap:
       name: postman
