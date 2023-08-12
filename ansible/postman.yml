@@ -5,6 +5,7 @@
   - name: Install snapd
     ansible.builtin.apt:
       name: snapd
+      update_cache: true
       state: latest
     become: yes
   - name: Enable and start snap service
