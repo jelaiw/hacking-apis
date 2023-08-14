@@ -16,3 +16,4 @@
 1. ansible.builtin.apt_repository module. https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_repository_module.html.
 1. ansible ssh prompt known_hosts issue. https://stackoverflow.com/a/30227199.
 1. community.general.snap module. https://docs.ansible.com/ansible/latest/collections/community/general/snap_module.html.
+1. Ansible remote_user vs ansible_user. https://stackoverflow.com/a/36677811.
