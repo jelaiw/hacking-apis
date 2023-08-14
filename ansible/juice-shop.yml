@@ -1,6 +1,5 @@
 - name: OWASP Juice Shop
   hosts: vulnweb
-  remote_user: vulnweb
   tasks:
   - name: Pull image
     community.docker.docker_image:

@@ -1,6 +1,5 @@
 - name: vulnweb
   hosts: vulnweb
-  remote_user: vulnweb
   tasks:
   - name: apt update
     ansible.builtin.apt:
