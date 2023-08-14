@@ -1,6 +1,5 @@
 - name: postman
   hosts: kali
-  remote_user: kali
   tasks:
   - name: Install snapd
     ansible.builtin.apt:

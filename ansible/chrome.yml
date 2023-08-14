@@ -1,6 +1,5 @@
 - name: chrome
   hosts: kali
-  remote_user: kali
   tasks:
   - name: Add GPG key for veryifing package signature
     ansible.builtin.apt_key:

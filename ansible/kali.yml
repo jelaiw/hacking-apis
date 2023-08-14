@@ -1,6 +1,5 @@
 - name: kali
   hosts: kali
-  remote_user: kali
   tasks:
   - name: apt update
     ansible.builtin.apt:
