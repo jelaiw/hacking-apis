@@ -10,6 +10,6 @@ variable "zone" {
 }
 
 variable "codespaces_ip" {
-  type = string
+  type        = string
   description = "The GitHub-issued IP address for this dev container."
 }
