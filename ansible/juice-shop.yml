@@ -1,13 +1,15 @@
 - name: OWASP Juice Shop
   hosts: vulnweb
+  vars:
+    image_name: bkimminich/juice-shop@sha256:073163e118541daec3a26321d6fb70e7454ab369de5f296c131f5ff99fc8c91c
   tasks:
   - name: Pull image
     community.docker.docker_image:
-      name: bkimminich/juice-shop@sha256:073163e118541daec3a26321d6fb70e7454ab369de5f296c131f5ff99fc8c91c
+      name: "{{ image_name }}"
       source: pull
   - name: Start container
     community.docker.docker_container:
       name: juice-shop
-      image: bkimminich/juice-shop@sha256:073163e118541daec3a26321d6fb70e7454ab369de5f296c131f5ff99fc8c91c
+      image: "{{ image_name }}"
       ports:
         - 80:3000
