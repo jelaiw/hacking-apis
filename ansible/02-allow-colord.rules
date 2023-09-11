@@ -1,12 +1,12 @@
 polkit.addRule(function(action, subject) {
-if ((action.id == "org.freedesktop.color-manager.create-device" ||
-    action.id == "org.freedesktop.color-manager.create-profile" ||
-    action.id == "org.freedesktop.color-manager.delete-device" ||
-    action.id == "org.freedesktop.color-manager.delete-profile" ||
-    action.id == "org.freedesktop.color-manager.modify-device" ||
-    action.id == "org.freedesktop.color-manager.modify-profile") &&
-    subject.isInGroup("{kali}")) {
-    return polkit.Result.YES;
+    if ((action.id == "org.freedesktop.color-manager.create-device" ||
+        action.id == "org.freedesktop.color-manager.create-profile" ||
+        action.id == "org.freedesktop.color-manager.delete-device" ||
+        action.id == "org.freedesktop.color-manager.delete-profile" ||
+        action.id == "org.freedesktop.color-manager.modify-device" ||
+        action.id == "org.freedesktop.color-manager.modify-profile") &&
+        subject.isInGroup("{kali}")) {
+            return polkit.Result.YES;
     }
 });
 
