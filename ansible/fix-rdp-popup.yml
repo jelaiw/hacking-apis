@@ -1,0 +1,20 @@
+- name: Fix RDP popup
+  hosts: kali
+  tasks:
+  - name: Define colord polkit rules
+    ansible.builtin.copy:
+      src: 02-allow-colord.rules
+      dest: /usr/share/polkit-1/rules.d
+      owner: root
+      group: root
+      mode: '0644'
+    notify:
+    - Restart polkit service
+    become: yes
+
+  handlers:
+    - name: Restart polkit service
+      ansible.builtin.service:
+        name: polkit
+        state: restarted
+      become: yes
